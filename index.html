@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎵 Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎵 Music Player</h1>
+  <div class="player-container">
+    <div class="now-playing">
+      <img id="song-image" src="https://via.placeholder.com/300" alt="Song Image" />
+      <div class="details">
+        <h2 id="song-title">Select a song</h2>
+        <p id="song-artist">Artist</p>
+        <p id="song-movie">Movie</p>
+      </div>
+      <audio id="audio-player" controls></audio>
+      <div class="next-up" id="next-up"></div>
+    </div>
+    <div class="playlist-container">
+      <div class="search">
+        <input type="text" id="search-input" placeholder="Search songs..." />
+      </div>
+      <ul class="song-list" id="song-list">
+        
+      </ul>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
